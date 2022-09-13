@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;  }
+    body{
+        background-color: rgb(243, 215, 181);
+    }
+
+    h1{
+    
+        color: blue;
+        background-color: rgb(126, 140, 219);
+          text-align: center;
+         text-align-last: center;
+         
+  }
+  form{
+    width:fit-content;
+    
+    padding: 15px;
+    margin: auto;
+    text-align:left;
+    position: absolute;
+
+}
+.crarv{
+    padding: 15px;
+}
+.choiceslis{
+    border-width: 10px solid;
+    border-color: azure;
+}

@@ -1,0 +1,18 @@
+<?php
+include("config.php");
+if(isset($_GET['deleteidb'])){
+    $_NUM_ORDRE_BO=$_GET['deleteidb'];
+   $_sql="delete from courrier where NUM_ORDRE_BO=$_NUM_ORDRE_BO";
+}
+
+
+
+//deleting the row from table
+$result = mysqli_query($_conn,$_sql);
+if($_result){
+    echo"Supprimé"
+}else{
+    die(mysqli_error($_conn));
+}
+
+?>
